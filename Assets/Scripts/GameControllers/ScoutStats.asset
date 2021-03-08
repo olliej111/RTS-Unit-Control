@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dcbf64677961e4ba2d6d0f4e396ea8, type: 3}
+  m_Name: ScoutStats
+  m_EditorClassIdentifier: 
+  name: Scout Stats
+  speed: 15
+  acceleration: 10
+  angularAcceleration: 1000
+  hitPoints: 10
+  armour: 20
+  turretSpeed: 15
+  fireRate: 0.1
+  reloadTime: 1
+  range: 50
+  projVelocity: 50
+  damage: 15
+  armourPenetration: 15
+  damageType: HE
+  targetPriority: Infantry
+  targetSecondary: Scout

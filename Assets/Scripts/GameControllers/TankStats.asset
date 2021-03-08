@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dcbf64677961e4ba2d6d0f4e396ea8, type: 3}
+  m_Name: TankStats
+  m_EditorClassIdentifier: 
+  name: TanksStats
+  speed: 7.5
+  acceleration: 5
+  angularAcceleration: 700
+  hitPoints: 50
+  armour: 50
+  turretSpeed: 10
+  fireRate: 2
+  reloadTime: 0
+  range: 100
+  projVelocity: 63.5
+  trajectory: 0
+  damage: 60
+  armourPenetration: 20
+  damageType: AP
+  targetPriority: Armour
+  targetSecondary: AP
+  _mLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
