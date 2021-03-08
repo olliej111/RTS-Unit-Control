@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+/* The content in this script is not used any more. 
+The add listener functions are carried out in the script attached to the gameobject itself.
 public class Selection : MonoBehaviour
 {
     public UnityEvent sendMeYourScreenPos;
@@ -23,3 +24,4 @@ public class Selection : MonoBehaviour
         eventManagerScript.moveToMouseClick.RemoveListener(unit.GetComponent<movementController>().setDestination);
     }
 }
+*/
