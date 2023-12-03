@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T15:03:11.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="xW_anNQnwSuFuyfmi2kA" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T15:05:39.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="LA2TJXHRoV170LYzmDYs" version="22.1.5" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="514" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -597,8 +597,20 @@
         <mxCell id="bFYyRGVqq3uxC3u2RR_p-190" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1845" y="550" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bFYyRGVqq3uxC3u2RR_p-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFYyRGVqq3uxC3u2RR_p-191" target="bFYyRGVqq3uxC3u2RR_p-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bFYyRGVqq3uxC3u2RR_p-191" value="assignDecisionValue" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2220" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bFYyRGVqq3uxC3u2RR_p-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFYyRGVqq3uxC3u2RR_p-192" target="bFYyRGVqq3uxC3u2RR_p-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bFYyRGVqq3uxC3u2RR_p-192" value="binaryDecision =&amp;nbsp;&lt;br&gt;binaryValue[x][y] x 8&lt;br&gt;+&lt;br&gt;binaryValue[x+1][y] x 4&lt;br&gt;+&lt;br&gt;binaryValue[x+1][y+1] x 2&lt;br&gt;+&lt;br&gt;binaryValue[x][y+1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="150" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bFYyRGVqq3uxC3u2RR_p-193" value="assignDecisionValue" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
